@@ -21,8 +21,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/krml19/plcrashreporter.git", :tag => "v#{s.version}" }
 
-  s.source_files  = "Source/*.{h,hpp,c,cpp,m,mm,s}",
-                    "Source/{Crash Report,Private API}/**/*.{h,hpp,c,cpp,m,mm,s}",
+  s.source_files  = "Source/**/*.{h,hpp,c,cpp,m,mm,s}",
                     "Dependencies/protobuf-2.0.3/src/*.{h,c}"
   s.exclude_files = "**/*Tests.*",
                     "**/*_test_.*",
