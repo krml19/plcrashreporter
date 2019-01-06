@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Plausible Labs Cooperative, Inc.' => 'contact@plausible.coop' }
 
   s.ios.deployment_target = "10.0"
-  s.osx.deployment_target = "10.10"
+  # s.osx.deployment_target = "10.10"
 
   s.source       = { :git => "https://github.com/krml19/plcrashreporter.git", :tag => "v#{s.version}" }
 
