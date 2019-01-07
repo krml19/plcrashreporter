@@ -34,7 +34,6 @@ Pod::Spec.new do |s|
                           "Source/PLCrashMacros.h",
                           "Source/PLCrashFeatureConfig.h",
                           "Source/CrashReporter.h"
-  s.header_mappings_dir = "."
   s.preserve_paths = "Dependencies/**"
 
 
