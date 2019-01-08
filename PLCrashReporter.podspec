@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.10"
 
-  s.source       = { :git => "https://github.com/krml19/plcrashreporter.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/backtrace-labs/plcrashreporter", :tag => "v#{s.version}" }
 
   s.source_files  = "Source/**/*.{h,hpp,c,cpp,m,mm,s}",
                     "Dependencies/protobuf-2.0.3/src/*.{h,c}"
